@@ -1,0 +1,36 @@
+/* Header */
+.header {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  grid-row: 1/2;
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+.header--1 {
+  background-image: url(../assets/header-img.jpg);
+  justify-content: end;
+  align-items: center;
+}
+.header--2 {
+  padding-left: 8rem;
+  padding-bottom: 10%;
+  background-image: url(../assets/perfect-bride-portrait-girl-long-white-dress\ 1.jpg);
+  justify-content: end;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .header {
+    padding-bottom: 3rem;
+  }
+  .header--1 {
+    background-image: url('../assets/mobile version/beautiful-brunette-woman-fashion-dress-sequins-with-dispersion-effect 1 (1).jpg');
+  }
+}

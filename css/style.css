@@ -1,0 +1,81 @@
+/* import css3 */
+@import 'typography.css';
+@import 'buttons.css';
+@import 'card.css';
+@import 'navbar.css';
+@import 'header.css';
+@import 'brand.css';
+@import 'product.css';
+@import 'section-collection.css';
+@import 'banner.css';
+@import 'section-cto.css';
+@import 'footer.css';
+/* Base */
+:root {
+  --color-white: white;
+  --color-purple: #7373d7;
+  --color-purple-light: #c9c9ff;
+  --color-black: #222222;
+  --color-gray:#b7b7b7;
+  --color-gray-dark:#9b9b9b;
+  --bp-x-large: 1200px;
+  --bp-large: 1024px;
+  --bp-medium: 900px;
+  --bp-small: 600px;
+  --bp-x-small: 350px;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: var(--color-black);
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #c9c9ff;
+  outline: 1px solid #7373d7;
+  border-radius: 0.8rem;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 100vh repeat(3, min-content) repeat(4, 100vh);
+  grid-template-columns: repeat(2, 1fr);
+}
+.container-products {
+  display: grid;
+  grid-template-rows: 80vh;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
+@media only screen and (max-width:1024px) {
+  html{
+    font-size: 50%;
+  }  
+}
+@media only screen and (max-width: 650px) {
+  .container{
+    grid-template-rows: 100vh repeat(3, min-content) repeat(4,1fr);
+    grid-template-columns: 1fr;
+  }
+ }
+
+

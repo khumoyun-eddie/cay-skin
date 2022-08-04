@@ -1,0 +1,49 @@
+/* Buttons*/
+.btn-bg {
+  border-radius: 10rem;
+  padding: 1.6rem 4.8rem;
+  font-size: 1.7rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.btn-bg--light {
+  background-color: var(--color-purple-light);
+  color: var(--color-purple);
+}
+.btn--white {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+}
+.btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn--cto {
+  color: var(--color-white);
+  padding-bottom: 1px;
+  border-bottom: 2px solid var(--color-purple);
+}
+.btn--purple {
+  color: var(--color-black);
+  padding-bottom: 1px;
+  border-bottom: 2px solid var(--color-purple);
+}
+.btn--purple:hover {
+  color: var(--color-purple);
+}
+.btn-product {
+  border: none;
+  border-top: 1px solid var(--color-white);
+  width: 80%;
+  border-radius: 0;
+  color: var(--color-white);
+  font-size: 1.6rem;
+  align-self: center;
+  justify-self: center;
+  background-color: transparent;
+  padding-top: 8px;
+  padding-bottom: 1.6rem;
+}

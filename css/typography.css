@@ -1,0 +1,84 @@
+.heading-1 {
+  text-align: center;
+  line-height: 1;
+  font-size: 8rem;
+  font-weight: 700;
+}
+.header--1 .heading-1{
+  padding: 1.6rem 18rem 4.8rem;
+}
+.heading-2 {
+  font-size: 5.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.heading-2--white {
+  color: var(--color-white);
+}
+.heading-3 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.heading-4 {
+  font-size: 3.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.heading-4--purple {
+  color: var(--color-purple);
+}
+
+.heading-5 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.heading-5--purple{
+  color: var(--color-purple);
+}
+.heading-5--white{
+  color: var(--color-white);
+}
+.banner__text {
+  margin-top: 2.4rem;
+  margin-bottom: 4rem;
+}
+.sub-heading{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.header--2 .sub-heading{
+  width: 50%;
+}
+.dark__text {
+  color: var(--color-gray);
+}
+@media only screen and (max-width: 800px) {
+  .header--1 .heading-1{
+    padding: 1.6rem 9rem 3rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .header--1 .heading-1{
+    padding: 1.6rem 3rem 3rem;
+    font-size: 7rem;
+  }
+  .heading-2{
+    font-size: 4rem;
+  }
+  .heading-3{
+    font-size: 3rem;
+  }
+  .heading-4{
+    font-size: 3rem;
+  }
+ }
+ @media only screen and (max-width: 500px) {
+  .header--1 .heading-1{
+    padding: 1.6rem 1rem 3rem;
+  }
+ }

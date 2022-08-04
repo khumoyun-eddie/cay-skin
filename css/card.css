@@ -1,0 +1,40 @@
+.card {
+  background-color: #7373d7;
+  display: flex;
+  align-items: flex-end;
+}
+.card__content {
+  color: var(--color-white);
+}
+.model-card {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 5rem;
+}
+@media only screen and (max-width: 800px) {
+  .model-card {
+    padding: 3rem 1rem;
+  }
+}
+.model-card--1 {
+  width: 50%;
+  background-image: url(../assets/beautiful-blonde-curly-hair-beige-bodysuit-posing-beige-fabric-background-perfect-slim-body-natural-makeup-long-hair-beautiful-breasts\ 1.jpg);
+}
+.model-card--2 {
+  width: 50%;
+  background-image: url(../assets/beauty-art-portrait-beautiful-woman-with-long-hair-white-fur-coat-with-long-faux-fur-beautiful-earrings-woman-s-ears-hairstyle-hair-styling\ 1.jpg);
+}
+.model-card--3 {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  height: 62.5rem;
+  background-image: url('../assets/portrait-nude-beauty-woman-short-hair-fashion-coloring-dark-hair-coloring-short-haircut-chocolate-color-art-beautiful-woman-clean-facial-skin-natural-makeup-strong-hair 1.jpg');
+}
+
+@media only screen and (max-width: 650px) {
+  .card {
+    width: 100%;
+    height: 65rem;
+  }
+}
