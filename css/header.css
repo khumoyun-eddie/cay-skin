@@ -12,12 +12,12 @@
   color: var(--color-white);
   text-transform: uppercase;
 }
-.header--1 {
+.header--lg {
   background-image: url(../assets/header-img.jpg);
   justify-content: end;
   align-items: center;
 }
-.header--2 {
+.header--sm {
   padding-left: 8rem;
   padding-bottom: 10%;
   background-image: url(../assets/perfect-bride-portrait-girl-long-white-dress\ 1.jpg);
@@ -30,7 +30,11 @@
   .header {
     padding-bottom: 3rem;
   }
-  .header--1 {
+  .header--lg {
     background-image: url('../assets/mobile version/beautiful-brunette-woman-fashion-dress-sequins-with-dispersion-effect 1 (1).jpg');
   }
+  .header--sm{
+    padding-left: 3rem;
+  }
 }
+

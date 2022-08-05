@@ -13,7 +13,7 @@ class ProductsListView extends View {
     handler();
   }
   _generateMarkup(item) {
-    console.log(item)
+    console.log(item);
     return `<div class="product">
     <div class="product__showcase">
       <span class="product__icon product__icon--${
@@ -31,11 +31,15 @@ class ProductsListView extends View {
     <div class="product__description">
       ${item.description}
     </div>
-    ${item.isOnSale &&`
+    ${item.isOnSale ? `
     <div class='product__prices'>
-        <span class='product__price product__price--current'>$${item.price.current}</span>
-        <span class='product__price product__price--original'>$${item.price.original}</span>
-    </div>`}
+      <span class='product__price product__price--current'>$${item.price.current}</span>
+      <span class='product__price product__price--original'>$${item.price.original}</span>
+    </div>` : `
+    <div class='product__prices'>
+      <span class='product__price product__price--current'>$${item.price.original}</span>
+    </div>`
+    }
    </div>`;
   }
 }
